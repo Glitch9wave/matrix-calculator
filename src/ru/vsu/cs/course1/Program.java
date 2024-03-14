@@ -17,6 +17,8 @@ public class Program {
         public boolean window;
     }
 
+    public int w;
+
     public static CmdParams parseArgs(String[] args) {
         CmdParams params = new CmdParams();
         if (args.length > 0) {
